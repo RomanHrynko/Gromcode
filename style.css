@@ -1,12 +1,21 @@
-.super-important.highlighted {
-  background-color: red;
+[target="_blank"] {
+  color: green;
 }
-span.user-data {
-  font-size: 10px;
+ol, ul {
+  background-color: yellow;
 }
-li.user-data {
+header, footer {
+  border: 3px dashed blue;
+}
+article.new {
   font-size: 24px;
 }
-.company-data, .highlighted {
-  color: yellow;
+li.new {
+  background-color: red;
+}
+.page-header {
+  margin-left: 20px;
+}
+.new.posted-today {
+  background-color: pink;
 }
