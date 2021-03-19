@@ -1,21 +1,18 @@
-li {
-  margin-bottom: 16px;
+img[alt="Pollution"] {
+  border: 5px dashed red;
 }
-a[href^="broken"] {
-  border: 2px solid red;
-}
-a[target="_blank"] {
-  border: 2px solid black;
-}
-a[href$=".com"] {
+img[src$=".jpg"] {
   margin-left: 50px;
 }
-a[href*="www"] {
-  color: green;
+li[data-description~="even"] {
+  background-color: grey;
 }
-a[title~="popular"] {
+li[data-description^="even"] {
   font-size: 24px;
 }
-[lang|="en"]{
-  font-size: 10px;
+a[href^="https://"] {
+  color: green;
+}
+span[lang|="en"] {
+  font-size: 28px;
 }
