@@ -20,7 +20,7 @@ p {
   border: 2px solid blue;
 }
 div p {
-  font: 25px;
+  font-size: 25px;
 }
 input[type="text"] {
   background-color: gray;
@@ -31,4 +31,7 @@ div:nth-child(5) p:last-child {
 em {
   color: white;
   font-size: 20px;
+}
+input {
+  border: 3px solid red;
 }
