@@ -1,37 +1,18 @@
 body {
-  background-color: #bdc3c7;
+  background-color: antiquewhite;
 }
-h1 {
-  color: #9b59b6;
+.rectangle {
+  border: 8px solid black;
+  width: 512px;
+  height: 128px;
+  padding: 16px;
+  margin: 16px;
 }
-h2 {
-  color: orange;
+.rectangle1 {
+  box-sizing: content-box;
+  background-color: aquamarine;
 }
-li {
-  color: blue;
-}
-p {
-  background-color: yellow;
-}
-.hello {
-  background-color: white;
-}
-#special {
-  border: 2px solid blue;
-}
-div p {
-  font-size: 25px;
-}
-input[type="text"] {
-  background-color: gray;
-}
-div:nth-child(5) p:last-child {
-  border: 5px solid white;
-}
-em {
-  color: white;
-  font-size: 20px;
-}
-input {
-  border: 3px solid red;
+.rectangle2 {
+  box-sizing: border-box;
+  background-color: azure
 }
