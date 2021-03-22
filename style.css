@@ -1,16 +1,34 @@
-[checked]:checked {
-  margin-left: 50px;
+body {
+  background-color: #bdc3c7;
 }
-label {
-  text-transform: uppercase;
+h1 {
+  color: #9b59b6;
 }
-#special::first-letter {
-  color: green;
-  font-size: 100px;
+h2 {
+  color: orange;
 }
-h1:hover {
+li {
   color: blue;
 }
-a:visited {
-  color: gray;
+p {
+  background-color: yellow;
+}
+.hello {
+  background-color: white;
+}
+#special {
+  border: 2px solid blue;
+}
+div p {
+  font: 25px;
+}
+input[type="text"] {
+  background-color: gray;
+}
+div:nth-child(5) p:last-child {
+  border: 5px solid white;
+}
+em {
+  color: white;
+  font-size: 20px;
 }
