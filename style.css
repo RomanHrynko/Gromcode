@@ -14,11 +14,10 @@
 }
 .nav-item {
   list-style-type: none;
-  display: inline-block;
   margin-left: 16px;
+  float: left;
 }
 .nav-list {
-  float: left;
   height: 40px;
   color: white;
   margin-top: auto;
