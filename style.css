@@ -5,9 +5,14 @@ header {
 .article {
   margin: 8px;
   padding: 16px;
-  background-color: pink;
+  background-color: bisque;
 }
 .articles-list {
   display: flex;
+ 
   flex-wrap: wrap;
+}
+.articles-list p {
+  width: 300px;
+  flex-grow: 1;
 }
