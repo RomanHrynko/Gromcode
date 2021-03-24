@@ -1,12 +1,23 @@
 .block {
-  background-color: coral;
-  margin: 8px;
-  height: 100px;
-  width: 100px;
-  flex-shrink: 1;
+  height: 300px;
   flex-grow: 1;
 }
-.container {
+body {
   display: flex;
   flex-wrap: wrap;
+}
+.block_red {
+  background-color: red;
+}
+.block_green {
+  background-color: green;
+}
+.block_blue {
+  background-color: blue;
+}
+.block_yellow {
+  background-color: yellow;
+}
+.block_black {
+  background-color: black;
 }
