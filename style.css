@@ -19,11 +19,13 @@
 }
 .ul1 {
   margin: 0;
+  padding: 0;
   display: flex;
   list-style-type: none;
+ 
 }
 .list1{
-margin-right: 16px;
+margin-left: 16px;
 }
 .span {
   margin: auto;
@@ -52,7 +54,9 @@ margin-right: 16px;
 .ul2 {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 .list2 {
   height: 40px;
+  margin-left: 16px;
 }
