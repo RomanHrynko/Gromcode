@@ -8,12 +8,11 @@ header {
 .articles-list {
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
 }
 .article {
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-  width: 300px;
+  flex-basis: 300px;
   flex-grow: 1;
 }
