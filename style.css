@@ -1,18 +1,19 @@
+* {
+  box-sizing: border-box;
+}
 header {
   display: flex;
   justify-content: center;
+}
+.articles-list {
+  display: flex;
+  flex-wrap: wrap;
 }
 .article {
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-}
-.articles-list {
-  display: flex;
- 
-  flex-wrap: wrap;
-}
-.articles-list p {
-  width: 300px;
+  width: 250px;
   flex-grow: 1;
+  flex-shrink: 1;
 }
