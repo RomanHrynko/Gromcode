@@ -13,7 +13,6 @@ header {
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-  width: 250px;
+  width: 300px;
   flex-grow: 1;
-  flex-shrink: 1;
 }
