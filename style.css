@@ -45,20 +45,19 @@ margin-left: 16px;
   width: 200px;
   background-color: gray;
 }
-
 .news {
   display: flex;
-}
-h2 {
   justify-content: center;
   margin-top: 16px;
 }
 .ul2 {
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 .list2 {
-  height: 40px;
+  flex-basis: 40px;
   margin-left: 16px;
 }
