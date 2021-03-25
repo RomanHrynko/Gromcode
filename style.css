@@ -3,13 +3,12 @@
 }
 header {
   display: flex;
-}
-h1 {
-  margin: 0 auto;
+  justify-content: center;
 }
 .articles-list {
   display: flex;
   flex-wrap: wrap;
+  margin: 0;
 }
 .article {
   margin: 8px;
