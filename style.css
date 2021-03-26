@@ -1,6 +1,14 @@
 * {
   box-sizing: border-box;
 }
+.dropdown {
+  margin: 16px;
+  top: 16px;
+  display: inline-block;
+  position: relative;
+  height: 34px;
+  cursor: pointer;
+}
 .menu-button {
   background-color: darkgreen;
   opacity: 0.8;
@@ -9,13 +17,6 @@
 }
 .menu-button:hover {
   opacity: 1;
-}
-.dropdown {
-  margin: 16px;
-  display: inline-block;
-  position: relative;
-  height: 34px;
-  cursor: pointer;
 }
 .menu-list {
   display: none;
