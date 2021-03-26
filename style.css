@@ -2,6 +2,7 @@
   margin: 8px;
 }
 .gallery {
+  overflow-x: scroll;
   display: flex;
 }
 .gallery:hover {
