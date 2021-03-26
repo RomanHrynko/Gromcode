@@ -6,7 +6,7 @@
   top: 16px;
   display: inline-block;
   position: relative;
-  height: 50px;
+  flex-basis: 50px;
   cursor: pointer;
 }
 .menu-button {
