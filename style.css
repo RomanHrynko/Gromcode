@@ -4,34 +4,36 @@
 .dropdown {
   margin: 16px;
   top: 16px;
+  height: 34px;
+  color: white;
   display: inline-block;
-  position: relative;
-  flex-basis: 50px;
   cursor: pointer;
+  position: relative;
 }
 .menu-button {
   background-color: darkgreen;
-  opacity: 0.8;
-  color: white;
   padding: 16px;
-}
-.menu-button:hover {
-  opacity: 1;
+  opacity: 0.8;
+  font-size: 16px;
 }
 .menu-list {
-  display: none;
-  position: absolute;
-  padding: 0;
-  margin: 0;
-  top: 34px;
-  list-style-type: none;
+  color: black;
   background-color: lightcyan;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   min-width: 120px;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  display: none;
+  position: absolute;
   z-index: 1;
+  top: 34px;
 }
 .menu-item {
   padding: 16px;
+}
+.dropdown:hover {
+  opacity: 1;
 }
 .dropdown:hover .menu-list {
   display: block;
