@@ -4,7 +4,7 @@
 .dropdown {
   margin: 16px;
   top: 16px;
-
+  height: 34px;
   color: white;
   display: inline-block;
   cursor: pointer;
@@ -14,7 +14,6 @@
   background-color: darkgreen;
   padding: 16px;
   opacity: 0.8;
-  height: 34px;
   font-size: 16px;
 }
 .menu-list {
