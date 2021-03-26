@@ -1,63 +1,14 @@
-* {
-  box-sizing: border-box;
+div > div {
+  width: 100px;
+  height: 100px;
+  background: coral;
 }
-.page {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+.not_displayed {
+  display: none;
 }
-.header {
-  height: 40px;
-  background-color: yellow;
-  display: flex;
-  align-items: center;
+.hidden {
+  visibility: hidden;
 }
-.footer {
-  height: 40px;
-  background-color: green;
-  display: flex;
-}
-.ul1 {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  list-style-type: none;
- 
-}
-.list1{
-margin-left: 16px;
-}
-.span {
-  margin: auto;
-}
-.main {
-  flex-grow: 1;
-  display: flex;
-}
-.section {
-  display: flex;
-  flex-grow: 1;
-  background-color: pink;
-  justify-content: center;
-  align-items: center;
-}
-.aside {
-  width: 200px;
-  background-color: gray;
-}
-.news {
-  display: flex;
-  justify-content: center;
-  margin-top: 16px;
-}
-.ul2 {
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.list2 {
-  flex-basis: 40px;
-  margin-left: 16px;
+.visible {
+  visibility: visible;
 }
