@@ -5,6 +5,5 @@
   display: flex;
 }
 .gallery:hover {
-  display: flex;
   cursor: all-scroll;
 }
