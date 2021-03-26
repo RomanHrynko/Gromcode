@@ -1,24 +1,40 @@
 * {
   box-sizing: border-box;
 }
-.articles > div {
-  height: 100px;
-  width: 150px;
+.menu-button {
+  background-color: darkgreen;
+  opacity: 0.8;
+  color: white;
+  padding: 16px;
+}
+.menu-button:hover {
+  opacity: 1;
+}
+.dropdown {
   margin: 16px;
-  background-color: beige;
+  display: inline-block;
+  position: relative;
+  height: 34px;
+  cursor: pointer;
 }
-.articles {
-  display: flex;
+.menu-list {
+  display: none;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 34px;
+  list-style-type: none;
+  background-color: lightcyan;
+  min-width: 120px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
-.cropped {
-  overflow: hidden;
+.menu-item {
+  padding: 16px;
 }
-.both-scrolls {
-  overflow: scroll;
+.dropdown:hover .menu-list {
+  display: block;
 }
-.vertical-scroll {
-  overflow: auto;
-}
-.both-scrolls, .vertical-scroll {
-  cursor: all-scroll;
+.menu-item:hover {
+  background-color: ghostwhite;
 }
