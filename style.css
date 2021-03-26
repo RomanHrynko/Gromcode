@@ -1,13 +1,17 @@
-.list {
-  list-style-type: none;
-  font-size: 1.5em;
+h1 {
+  font-size: 74px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 50%;
+  margin: auto;
 }
-.first {
-  text-decoration: red overline;
-}
-.second {
-  text-decoration: line-through;
-}
-.third {
-  text-decoration: green underline;
+div {
+  background-color: coral;
+  height: 200px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 200px;
 }
