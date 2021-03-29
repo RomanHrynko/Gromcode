@@ -1,13 +1,10 @@
 * {
   box-sizing: border-box;
 }
-.image-container {
-  display: flex;
-}
 
 .main-image {
+  display: block;
   margin: 50px auto;
-  flex-shrink: 1;
   max-width: 100%;
   border-radius: 20px;
 }
