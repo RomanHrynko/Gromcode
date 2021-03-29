@@ -1,37 +1,30 @@
 * {
   box-sizing: border-box;
 }
+.image-container {
+  position: relative;
+}
 
-.main-image {
+.image {
   display: block;
-  margin: 50px auto;
+  margin: auto;
   max-width: 100%;
-  border-radius: 20px;
 }
-
-.gallery {
-  display: flex;
-}
-
-.opacity-filter {
-  filter: opacity(50%);
-}
-
-.blur-filter {
-  filter: blur(4px);
-}
-
-.invert-filter {
-  filter: invert(100%);
-}
-
-.card {
-  margin: 16px;
-  box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
-}
-
-.caption {
-  line-height: 30px;
+.image-button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  background-color: bisque;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  opacity: 0.5;
   text-align: center;
-  text-transform: lowercase;
+  line-height: 50px;
+  top: calc(50% - 25px);
+  left: calc(50% - 100px);
+  cursor: pointer;
+}
+.image-button:hover {
+  opacity: 1;
 }
