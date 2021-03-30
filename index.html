@@ -15,19 +15,25 @@
     <form>
       <div class="form-control">
         <label>Last Name</label>
-        <input type="text" name="lastName" value="Emerson" readonly />
+        <input class="control" type="text" name="lastName" value="Emerson" readonly />
       </div>
       <div class="form-control">
         <label>Age</label>
-        <input type="number" min="3" max="10" name="age" value="17" required />
+        <input class="control" type="number" min="3" max="10" name="age" value="17" required />
       </div>
       <div class="form-control">
-        <label> <input type="checkbox" name="agree" disabled /> Accept terms and conditions </label>
+        <label>
+          <input type="checkbox" name="agree" disabled />
+          Accept terms and conditions
+        </label>
       </div>
       <div class="choose-gender">
-        <label> <input type="radio" name="gender" /> Male </label>
-        <label> <input type="radio" name="gender" /> Female </label>
-        <label> <input type="radio" name="gender" checked /> Secret</label>
+        <input type="radio" id="gender-male" name="gender" />
+        <label for="gender-male">Male </label>
+        <input type="radio" id="gender-female" name="gender" />
+        <label for="gender-female">Female </label>
+        <input type="radio" id="gender-secret" name="gender" checked />
+        <label for="gender-secret"> Secret</label>
       </div>
       <div class="form-control">
         <textarea maxlength="10" name="description" placeholder="Write description..."></textarea>
