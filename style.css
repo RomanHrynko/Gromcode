@@ -1,10 +1,8 @@
 * {
   box-sizing: border-box;
 }
-body {
-  background-color: bisque;
-}
 .page {
+  background-color: bisque;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,9 +31,6 @@ body {
   padding: 4px;
   outline: none;
   border: 1px solid #808080;
-}
-.form-label {
-  margin-bottom: 4px;
 }
 .submit-button {
   width: 100%;
