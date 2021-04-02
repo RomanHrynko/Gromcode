@@ -2,19 +2,18 @@ body {
   display: flex;
   justify-content: space-around;
 }
-.battery-full {
+.fa-battery-full {
   font-size: 16px;
 }
-.battery-three-quarters {
+.fa-battery-three-quarters {
   font-size: 32px;
 }
-.battery-half {
+.fa-battery-half {
   font-size: 64px;
 }
-.battery-quarter {
+.fa-battery-quarter {
   font-size: 128px;
 }
-.battery-empty {
+.fa-battery-empty {
   font-size: 256px;
 }
-
