@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: space-around;
+}
+.battery-full {
+  font-size: 16px;
+}
+.battery-three-quarters {
+  font-size: 32px;
+}
+.battery-half {
+  font-size: 64px;
+}
+.battery-quarter {
+  font-size: 128px;
+}
+.battery-empty {
+  font-size: 256px;
+}
+
