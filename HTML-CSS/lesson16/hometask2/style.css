@@ -1,13 +1,7 @@
-* {
-  box-sizing: border-box;
-}
 .login-form {
   margin: 32px;
 }
 .form {
   margin: 8px;
 }
-input[type='color'] {
-  height: 27px;
-  width: 50px;
-}
+
