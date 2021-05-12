@@ -13,28 +13,34 @@ span {
   background-color: #ff7f50;
   min-height: 200px;
   display: flex;
-  flex-grow: 1;
 }
 .product_list {
   background-color: #006400;
   min-height: 200px;
   display: flex;
-  flex-grow: 1;
 }
 .news {
   background-color: #0ff;
   min-height: 200px;
   display: flex;
-  flex-grow: 1;
 }
 @media screen and (min-width: 600px) {
   .products {
     display: flex;
-    flex-grow: 2;
+  }
+  .navigation,
+  .product_list {
+    width: 50%;
   }
 }
 @media screen and (min-width: 900px) {
   .main {
     display: flex;
+  }
+  .products {
+    width: 66.6%;
+  }
+  .news {
+    width: 33.3%;
   }
 }
