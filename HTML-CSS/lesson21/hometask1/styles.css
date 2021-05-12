@@ -18,10 +18,14 @@ h1 {
   padding: 0.5em;
   background-color: #e5e5e5;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 .main {
   display: flex;
-  flex-direction: row;
-  max-height: 100vh;
+  flex-grow: 1;
 }
 .navigation {
   width: 20%;
