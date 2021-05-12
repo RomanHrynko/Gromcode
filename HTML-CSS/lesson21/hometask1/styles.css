@@ -18,12 +18,9 @@ h1 {
   padding: 0.5em;
   background-color: #e5e5e5;
 }
-body {
-  display: flex;
-  flex-direction: column;
-}
 .main {
   display: flex;
+  flex-direction: row;
   min-height: 100vh;
 }
 .navigation {
@@ -52,7 +49,7 @@ body {
 }
 .section__header {
   text-align: center;
-  font-size: 5vh;
+  font-size: 5vw;
 }
 .nav-list {
   padding: 0;
@@ -63,6 +60,8 @@ body {
   color: white;
   height: 2em;
   margin-bottom: 0.5em;
+  padding: 0 0.5em;
+  line-height: 2em;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -70,6 +69,4 @@ body {
 .nav-list-link {
   color: white;
   text-decoration: none;
-  padding: 0 0.5em;
-  line-height: 2em;
 }
