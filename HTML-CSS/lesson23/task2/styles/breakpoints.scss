@@ -2,8 +2,8 @@ $small: 600px;
 $medium: 900px;
 $large: 1200px;
 
-@mixin for-landscape {
-  @media screen and (orientation: landscape) {
+@mixin for-portrait {
+  @media screen and (orientation: portrait) {
     @content;
   }
 }
