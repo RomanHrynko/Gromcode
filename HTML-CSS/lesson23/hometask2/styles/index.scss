@@ -1,0 +1,49 @@
+@import 'layout.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.products {
+  display: flex;
+  flex-grow: 2;
+  flex-direction: column;
+}
+.navigation {
+  display: flex;
+  flex: 1;
+  min-height: 200px;
+  background-color: $color-navigation;
+}
+.products-list {
+  display: flex;
+  flex: 1;
+  min-height: 200px;
+  background-color: $color-products-list;
+}
+.news {
+  display: flex;
+  flex: 1;
+  min-height: 200px;
+  background-color: $color-news;
+}
+span {
+  font-family: Verdana;
+  margin: auto;
+  padding: $unit * 2;
+  border-radius: $unit;
+  background-color: #faebd7;
+  text-transform: lowercase;
+}
+
+@include for-medium-up {
+  .products {
+    flex-direction: row;
+    flex: 2;
+  }
+}
+@include for-large-up {
+  .container {
+    flex-direction: row;
+  }
+}
